@@ -18,7 +18,7 @@
 		},
 		{
 			"name": "imdbId",
-			"value": "",
+			"value": "{{schema:url|split:"title/"|last|split:"/"|first}}",
 			"type": "text"
 		},
 		{
